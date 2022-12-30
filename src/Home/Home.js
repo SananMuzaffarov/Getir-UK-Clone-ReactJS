@@ -6,6 +6,7 @@ import Product from "./Products";
 import Delivery from "./Delivery";
 import Deal from "./Deal";
 import Rate from "./Rate";
+import Ready from "./Ready";
 
 const Home = () => {
     return(
@@ -17,6 +18,7 @@ const Home = () => {
             <Delivery />
             <Deal />
             <Rate />
+            <Ready />
         </div>
     );
 }
