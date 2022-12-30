@@ -4,6 +4,7 @@ import Features from "./Features";
 import Order from "./Order";
 import Product from "./Products";
 import Delivery from "./Delivery";
+import Deal from "./Deal";
 
 const Home = () => {
     return(
@@ -13,6 +14,7 @@ const Home = () => {
             <Order />
             <Product />
             <Delivery />
+            <Deal />
         </div>
     );
 }
