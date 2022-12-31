@@ -7,6 +7,7 @@ import Delivery from "./Delivery";
 import Deal from "./Deal";
 import Rate from "./Rate";
 import Ready from "./Ready";
+import Footer from "./Footer";
 
 const Home = () => {
     return(
@@ -19,6 +20,7 @@ const Home = () => {
             <Deal />
             <Rate />
             <Ready />
+            <Footer />
         </div>
     );
 }
