@@ -14,7 +14,7 @@ const Footer = () => {
                         <ul>
                             <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="/"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="/"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="/"><i class="fa-brands fa-facebook"></i></a></li>
                         </ul>
                     </div>
                     <div className="footer-links">
@@ -33,12 +33,8 @@ const Footer = () => {
                         <a href="/">Join us as a rider</a>
                         <a href="/">Technology Careers</a>
                         <a href="/">Enquire about a Getir franchise</a>
-
                     </div>
                 </div>
-            </div>
-            <div className="footer-bottom">
-
             </div>
         </div>
     );

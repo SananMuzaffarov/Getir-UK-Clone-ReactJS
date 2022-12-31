@@ -8,6 +8,7 @@ import Deal from "./Deal";
 import Rate from "./Rate";
 import Ready from "./Ready";
 import Footer from "./Footer";
+import BottomFooter from "./BottomFooter";
 
 const Home = () => {
     return(
@@ -21,6 +22,7 @@ const Home = () => {
             <Rate />
             <Ready />
             <Footer />
+            <BottomFooter />
         </div>
     );
 }
