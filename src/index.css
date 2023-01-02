@@ -229,12 +229,21 @@
     .feature-wrapper img{
       max-width: 178px;
     }
-    .feature-wrapper h4{
-      font-size: 18px;
-    }
-    .feature-wrapper p{
-      font-size: 15px;
-    }
     /* ORDER RESPONSIVE PART */
-
+    .order{
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      height: 605px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .order img{
+      width: 250px;
+    }
+    .order-wrapper{
+      text-align: center;
+      width: 100%;
+      margin: 30px auto;
+    }
 }
