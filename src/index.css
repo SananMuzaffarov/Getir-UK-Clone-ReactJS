@@ -217,6 +217,7 @@
       display: flex;
       background-color: #fff;
       height: 1266px;
+      width: 100%;
       margin: 0 auto;
       flex-direction: column;
       align-items: center;
@@ -230,7 +231,7 @@
       max-width: 178px;
     }
     /* ORDER, PRODUCT, DELIVERY, DEAL, RATE RESPONSIVE PART */
-    .order, .product, .delivery, .deal, .rate{
+    .order, .product, .delivery, .deal, .rate, .ready{
       display: flex;
       flex-direction: column;
       background-color: #fff;
@@ -245,5 +246,40 @@
       text-align: center;
       width: 100%;
       margin: 30px auto;
+    }
+    /* READY RESPONSIVE PART */
+    .ready{
+      background-color: #5d3ebc;
+      height: 590px;
+    }
+    .ready-content{
+      display: flex;
+      width: 245px;
+      height: 270px;
+      flex-direction: column;
+    }
+    .phone{
+      display: flex;
+      margin-right: -90px;
+      margin-top: 150px;
+    }
+    .phone img{
+      width: 200px;
+      height: 170px;
+    }
+    .apps{
+      display: flex;
+      flex-direction: row;
+      width: 244px;
+      height: 61px;
+    }
+    .apps img{
+      width: 110px;
+    }
+    .footer{
+      display: none;
+    }
+    .bottomFooter{
+      display: none;
     }
 }
