@@ -276,10 +276,24 @@
     .apps img{
       width: 110px;
     }
+        /* FOOTER RESPONSIVE PART */
     .footer{
-      display: none;
+      display: flex;
+      margin: 0 auto;
+      background-color: #fff;
+      height: 255px;
     }
-    .bottomFooter{
-      display: none;
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 60px 0 0 -100px;
     }
+    .social-medias{
+      margin-left:  30px;
+    }
+    .bottomFooter, .footer-links{
+      display: none;
+    }   
 }
