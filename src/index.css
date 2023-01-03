@@ -229,8 +229,8 @@
     .feature-wrapper img{
       max-width: 178px;
     }
-    /* ORDER RESPONSIVE PART */
-    .order{
+    /* ORDER, PRODUCT, DELIVERY, DEAL, RATE RESPONSIVE PART */
+    .order, .product, .delivery, .deal, .rate{
       display: flex;
       flex-direction: column;
       background-color: #fff;
@@ -238,10 +238,10 @@
       width: 100%;
       margin: 0 auto;
     }
-    .order img{
+    .order img, .product img, .delivery img, .deal img, .rate img{
       width: 250px;
     }
-    .order-wrapper{
+    .order-wrapper, .product-wrapper, .delivery-wrapper, .deal-wrapper, .rate-wrapper{
       text-align: center;
       width: 100%;
       margin: 30px auto;
