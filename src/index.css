@@ -258,16 +258,16 @@
       height: 270px;
       flex-direction: column;
     }
-    .phone{
+    .ready .phone{
       display: flex;
       margin-right: -90px;
       margin-top: 150px;
     }
-    .phone img{
+    .ready .phone img{
       width: 200px;
       height: 170px;
     }
-    .apps{
+    .ready .apps{
       display: flex;
       flex-direction: row;
       width: 244px;
@@ -276,7 +276,7 @@
     .apps img{
       width: 110px;
     }
-        /* FOOTER RESPONSIVE PART */
+    /* FOOTER RESPONSIVE PART */
     .footer{
       display: flex;
       margin: 0 auto;
